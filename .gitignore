@@ -1,6 +1,2 @@
-﻿.idea/
-temp/
-bin/
-obj/
-.vscode/
-docs/
+﻿.idea
+.vscode
