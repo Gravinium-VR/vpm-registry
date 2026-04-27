@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    <RootNamespace></RootNamespace>
+    <NoWarn>CS0649;CS0169</NoWarn>
+    <NukeRootDirectory>..</NukeRootDirectory>
+    <NukeScriptDirectory>..</NukeScriptDirectory>
+    <NukeTelemetryVersion>1</NukeTelemetryVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Nuke.Common" Version="6.2.1" />
+    <PackageReference Include="Scriban" Version="5.5.0" />
+    <PackageReference Include="SemanticVersioning" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\vpm-core-lib\vpm-core-lib.dll">
+      <Link>vpm-core-lib.dll</Link>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="vpm-core-lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\vpm-core-lib\vpm-core-lib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
