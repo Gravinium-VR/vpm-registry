@@ -1,5 +1,5 @@
 {
-    "name":"Gravinium Listing",
+    "name":"Gravinium VPM Listing",
     "id":"org.gravinium.vpm",
     "url":"https://vpm.gravinium.org/index.json",
     "author":{
@@ -7,7 +7,7 @@
         "name":"Nighthawk",
         "url":"https://nighthawk.gravinium.org"
     },
-    "description":"The Gravinium VPM Listing",
+    "description":"VPM listing of Gravinium packages",
     "infoLink":{
         "url":"https://github.com/Gravinium-VR/vpm-registry",
         "text":"View on GitHub"
