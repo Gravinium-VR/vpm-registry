@@ -3,9 +3,9 @@
     "id":"org.gravinium.vpm",
     "url":"https://vpm.gravinium.org/index.json",
     "author":{
-        "email":"nighthawkvrc@gmail.com",
-        "name":"Nighthawk",
-        "url":"https://nighthawk.gravinium.org"
+        "email":"contact@gravinium.org",
+        "name":"Gravinium",
+        "url":"https://gravinium.org"
     },
     "description":"VPM listing of Gravinium packages",
     "infoLink":{
